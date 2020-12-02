@@ -3,7 +3,11 @@
 #Version 0.3 - change sp launches rsc.sb from "/home/pi/Documents/Scratch Projects"
 #Version 0.4 - 20Mar13 meltwater - change to use provided name for home
 #Version 1.0 - 29Oct13 sw - change to cd into simplesi_scratch_handler to run servods OK
-sudo ps aux | grep 'python.*scratchgpio_handler3.py' | grep -v grep | awk '{print $2}' | xargs sudo kill -9 
-cd /home/daniel/scratchgpio
+sudo ps aux | grep 'python.*scratchgpio_handler3.py' | grep -v grep | awk '{print $2}' | xargs sudo kill -9
+#cd /home/[yourlinuxusername]/
+#mkdir ./scratchgpio
+#cd ../../
+#cd /home/[yourlinuxusername]/scratchgpio
+#About the above four lines: Change "[yourlinuxusername]" to your Linux username and uncomment out the lines.
 sudo python scratchgpio_handler3.py &
 scratch --document "/home/daniel/Documents/Scratch Projects/rsc.sb" &
