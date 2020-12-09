@@ -14,5 +14,5 @@ Note: I update this repository frequently, so make sure to stay up-to-date!
 ## Additionally...
 
 * Sadly, I do not take donations yet. Look out in the future for that!
-* Any bugs/glitches/other issues? Open a new issue.
-* Have any more Scratch mods/versions? Open a new issue as well, or create a fork with the mod or version (see above).
+* Any bugs/glitches/other issues? Open a new issue in the "Issues" tab up top, or discuss it in the "Discussions" tab.
+* Have any more Scratch mods/versions? Open a new issue or discuss it as well, or create a fork with the required files to run the mod or version (see above).
