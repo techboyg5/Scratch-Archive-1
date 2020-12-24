@@ -1,1 +1,0 @@
-So, you may see two versions of NetScratch 1.0.1 in this repository. They are very slightly different: NetScratch 1.0.1 (1).image is slow and often shows a wait symbol for a second, but is very reliable; NetScratch 1.0.1 (2).image is much faster, but also much less reliable. You may chose which one you like best.
